@@ -1,3 +1,5 @@
+/* Paramètre généraux */
+
 html {
     box-sizing: border-box;
   }
@@ -8,4 +10,19 @@ html {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Début du code  */
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+
+main {
+    display: flex;
+    flex-grow: 1;
 }
