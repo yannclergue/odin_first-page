@@ -20,7 +20,7 @@ body {
     margin: 0;
 }
 
-.centrage {
+nav, .marge  {
     max-width: 1400px;
     margin: 0px auto;
 }
@@ -61,4 +61,37 @@ ul {
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Code du héro  */
+
+.landingPage {
+    background-color: #1F2937;
+    color: white;
+}
+
+.centrageLP {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 94vh;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.centrageLP div p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    font-weight: bolder;
+    padding: 10px 35px;
+    background-color: #3b82f6;
+    width: fit-content;
+    border-radius: 10px;
 }
