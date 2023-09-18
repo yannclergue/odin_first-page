@@ -111,7 +111,7 @@ h2 {
     margin: 100px 0px;
 }
 
-.centrageC1 {
+.centrageC {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -139,3 +139,36 @@ h2 {
     border: #3b82f6 5px solid;
     border-radius: 10px;
 }
+
+/* Code de la section "content2"  */
+
+.content2 {
+    background-color: #E5E7EB;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_case2{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    color: #1F2937;
+    width: 900px;
+}
+
+.content_case2 p {
+    margin: 10px 0px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: end;
+    margin: 0;
+}
+
+
+/* Code de la section "content3"  */
