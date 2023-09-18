@@ -12,19 +12,53 @@ img {
     height: auto;
 }
 
-/* Début du code  */
+/* Gestion des margin sur le côté pour la page  */
 
 body {
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
-    margin: 0px auto;
-    min-height: 100vh;
+    margin: 0;
 }
 
+.centrage {
+    max-width: 1400px;
+    margin: 0px auto;
+}
 
 main {
     display: flex;
     flex-direction: column;
 }
 
+/* Code du header  */
+
+header, nav {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+nav {
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    padding: 0px;
+    list-style: none;
+    margin-left: auto;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
