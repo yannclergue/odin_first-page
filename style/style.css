@@ -172,3 +172,43 @@ h2 {
 
 
 /* Code de la section "content3"  */
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_case3 {
+    margin: 150px 0px;
+    background-color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 1000px;
+    padding: 50px 0px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.text p:first-child {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.text p {
+    margin: 0;
+}
+
+.bouton {
+    padding: 10px 20px;
+    border: 2px white solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px; 
+}
